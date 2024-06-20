@@ -153,6 +153,7 @@ function Layout({children}) {
         <Links />
       </head>
       <body>
+      Hello world
         {data ? (
           <Analytics.Provider
             cart={data.cart}
